@@ -81,7 +81,7 @@ Exemplo de pedido:
 
 A colecao esta em:
 
-`postman/Raizes do Nordeste.postman_collection.json`
+`postman/Raizes.postman_collection.json`
 
 Ordem sugerida:
 
@@ -113,4 +113,3 @@ postman/            colecao de testes
 - Dados pessoais retornam sem senha
 - Consentimento LGPD fica no cadastro do usuario.
 - Acoes sensiveis geram auditoria: login, pedido, pagamento, estoque, status e fidelidade
-

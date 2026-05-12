@@ -7,7 +7,7 @@ fecharBanco();
 const arquivo = path.resolve(caminhoBanco);
 const pastaProjeto = process.cwd();
 
-// Cuidado simples para nao apagar nada fora do projeto sem querer.
+// Cuidado simples para nao apagar nada fora do projeto sem querer
 if (!arquivo.startsWith(pastaProjeto)) {
   throw new Error("Caminho do banco fora do projeto.");
 }
