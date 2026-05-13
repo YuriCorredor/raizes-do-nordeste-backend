@@ -90,7 +90,17 @@ Ordem sugerida:
 3. Importar a colecao no Postman.
 4. Rodar a colecao inteira ou executar as pastas na ordem: Auth, Catalogo, Pedidos, Pagamentos, Erros, Auditoria
 
-A colecao salva automaticamente os tokens e os ids de pedidos criado.
+A colecao salva automaticamente os tokens e os ids de pedidos criados.
+
+## Testes automaticos simples
+
+Com a API rodando em outro terminal, execute:
+
+```bash
+npm test
+```
+
+Esse comando chama login, cardapio, pedido, pagamento aprovado, pagamento recusado, status, filtros, fidelidade, auditoria e os principais erros exigidos no roteiro.
 
 ## Estrutura
 

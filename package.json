@@ -8,7 +8,8 @@
     "start": "node --no-warnings src/servidor.js",
     "migrate": "node --no-warnings scripts/migrar.js",
     "seed": "node --no-warnings scripts/seed.js",
-    "reset-db": "node --no-warnings scripts/limpar-banco.js && npm run migrate && npm run seed"
+    "reset-db": "node --no-warnings scripts/limpar-banco.js && npm run migrate && npm run seed",
+    "test": "node --no-warnings scripts/testar-api.js"
   },
   "keywords": [
     "backend",
